@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #feaddc; /* Warna latar belakang utama */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif; /* Font utama */
+    overflow: hidden; /* Sembunyikan scrollbar */
+}
+
+.splash-container {
+    text-align: center;
+    background-color: #fff; /* Warna latar belakang container */
+    padding: 40px;
+    border-radius: 10px; /* Sudut container dibulatkan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan container */
+}
+
+.splash-logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 30px; /* Jarak bawah logo */
+}
+
+.splash-title {
+    font-size: 48px; /* Ukuran font judul */
+    font-weight: bold; /* Ketebalan font judul */
+    color: #feaada; /* Warna font judul */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Bayangan teks judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+}
+
+.splash-message {
+    font-size: 18px;
+    color: #feaada; /* Warna font pesan */
+    line-height: 1.6; /* Jarak antar baris pesan */
+    margin-bottom: 40px; /* Jarak bawah pesan */
+}
+.button {
+    font-size: 20px;
+    color: rgb(216, 99, 181);
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(247, 237, 243);
+    padding: 20px 34px  ;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    transition: all 0.5s ease;
+
+}
+
+.splash-button:hover {
+    background-color: #ff1493;
+    
+}

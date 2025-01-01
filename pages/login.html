@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<html lang=”id”>
+
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <h1><span style="margin-left: -200px;">Login</span></h1> 
+  <form id="loginForm">
+    
+    <label for="nickname">Nickname:</label>
+    <input type="text" id="nickname" name="nickname" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <label>
+      <input type="checkbox" name="remember"> Ingat saya
+    </label><br><br>
+    <button type="submit">Login</button>
+  </form>
+
+  <div id="loggedInArea" style="display: none;">
+    <h2>Selamat Datang, <span id="loggedInNickname"></span></h2>
+    <button id="logoutButton">Logout</button>
+  </div>
+
+  <script src="login.js"></script>
+
+</body>
+
+</html>
