@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html>
-<html lang=”id”>
-
+<html lang="id">
 <head>
   <title>Login</title>
-  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1><span style="margin-left: -200px;">Login</span></h1> 
+  <h1>Login</h1>
   <form id="loginForm">
-    
-    <label for="nickname">Nickname:</label>
-    <input type="text" id="nickname" name="nickname" required>
+    <label for="username">Nickname:</label>
+    <input type="text" id="username" name="username" required>
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required>
     <label>
-      <input type="checkbox" name="remember"> Ingat saya
-    </label><br><br>
-    <button type="submit">Login</button>
+      <input type="checkbox" id="showPassword"> Tampilkan Password
+    </label>
+    <a href="next/after.html"><button type="submit">Login</button></a>
   </form>
 
   <div id="loggedInArea" style="display: none;">
@@ -26,7 +23,5 @@
   </div>
 
   <script src="login.js"></script>
-
 </body>
-
 </html>

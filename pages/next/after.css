@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #feaddc; /* Warna latar belakang yang lembut */
+    margin: 0;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #ffffff; 
+    font-style: inherit;
+  }
+  
+  #skinToneForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8acac ; /* Warna latar belakang putih */
+    box-shadow: 0 2px 5px rgba(105, 16, 16, 0.1); /* Bayangan untuk efek 3D */
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  label {
+    color: #f6ebeb; /* Warna label yang sedikit lebih gelap */
+  }
+  
+  button {
+    display: block;
+    margin-top: 20px;
+    margin-right: 8cm;
+    padding: 10px 15px;
+    background-color: #f8acac; /* Warna hijau untuk tombol */
+    color: rgb(252, 251, 251);
+    font-style: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #dda01e; /* Warna hijau yang lebih gelap saat hover */
+  }

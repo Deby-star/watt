@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Skin Tone Selection</title>
+<link rel="stylesheet" href="after.css">
+</head>
+<body>
+
+<h1>Pilih Skintone Anda</h1>
+
+<div>
+  <button type="button" onclick="submitChoice('medium')">medium</button>
+  <img src="fair.jpeg" width="300" height="100" alt="fair">
+  <button type="button" onclick="submitChoice('light')">light</button>
+  <button type="button" onclick="submitChoice('fair')">fair</button>
+</div>
+
+<script>
+function submitChoice(skinTone) {
+  // Lakukan navigasi ke halaman selanjutnya
+  window.location.href = "nextpage.html?skintone=" + skinTone;
+}
+</script>
+
+</body>
+</html>
