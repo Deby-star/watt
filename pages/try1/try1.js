@@ -10,7 +10,7 @@ skintones.forEach(skintone => {
     recommendations[skintone] = {};
     undertones.forEach(undertone => {
         recommendations[skintone][undertone] = {
-            text: `Rekomendasi: Gunakan foundation dengan nuansa ${skintone} dan blush on ${undertone}`,
+            text: `your own look !`,
             image: `gambar/${skintone}_${undertone}.jpg` // Path gambar yang sesuai
         };
     });
@@ -50,5 +50,6 @@ document.getElementById('submit').addEventListener('click', function() {
     document.getElementById('result').innerHTML = `
         <p>${result.text}</p>
         <img src="${result.image}" alt="Rekomendasi Makeup">
+        
     `;
 });
