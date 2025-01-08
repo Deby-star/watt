@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #feaddc;
+    background-color: #fff1f9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@ body {
   }
   
   .login-container {
-    background-color: #f8acac;
+    background-color: #f39e9e;
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -20,10 +20,10 @@ body {
     margin-bottom: 30px;
     font-size: 50px;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     margin-bottom: 30px;
-    margin-left: 20px;
-    color: #ffffff;
+    margin-right: 50px;
+    color: #fdd4f3;
   }
   
   label {
@@ -37,7 +37,7 @@ body {
     padding: 10px;
     margin: 10px 0;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #fbf8f8;
     border-radius: 4px;
     box-sizing: border-box;
   }
@@ -53,8 +53,8 @@ body {
   
   button[type="submit"] {
     background-color: #ffffff;
-    color: rgb(255, 143, 143);
-    padding: 12px 20px;
+    color: rgb(245, 158, 248);
+    padding: 10px 15pxx ;
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -62,11 +62,11 @@ body {
   }
   
   button[type="submit"]:hover {
-    background-color: #ec95a6;
+    background-color: #efa7f4;
   }
   
   
   #loggedInArea {
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
   }

@@ -1,0 +1,90 @@
+/* Reset CSS untuk menghilangkan margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4c9f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container utama */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Judul */
+h1 {
+    font-size: 28px; /* Ukuran font lebih besar */
+    margin-bottom: 30px; /* Jarak bawah lebih besar */
+    color: #333;
+    text-align: center; /* Teks di tengah */
+    width: 100%; /* Lebar penuh */
+    padding-bottom: 10px; /* Jarak bawah untuk dekorasi */
+    border-bottom: 2px solid #007bff; /* Garis bawah untuk dekorasi */
+}
+
+/* Label */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Dropdown */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Tombol */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Hasil rekomendasi */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Gambar */
+#result img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
