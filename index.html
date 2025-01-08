@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Splash Page</title>
+    <style>
+        .loader {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,9 +26,9 @@
         <img src="logo.png" alt="Logo" class="splash-logo">
         <h1 class="splash-title">watt's up girl</h1>
         <p class="splash-message"> Let's Have Some Fun with Makeup!</p>
-        <a href="pages/login.html"><button class="button">start</button></a>
-        
-    </div>
+        <a href="pages/index.html"><button class="button">start</button></a>
+        <div id="countdown"></div>
+    <div class="loader"></div> <!-- Loading spinner -->
     <script src="script.js"></script>
 </body>
 </html>
